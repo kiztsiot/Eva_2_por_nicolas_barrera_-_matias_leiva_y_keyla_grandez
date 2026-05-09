@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Municipalidad de Cholchol — Chol Chol Avanza. Servicios municipales, noticias y contacto oficial." />
+    <meta name="keywords" content="Municipalidad de Cholchol, Servicios públicos, La Araucanía" />
+    <title>Municipalidad de Cholchol — CholChol Avanza!</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="style.css" />
+    <!--========ESTE PROYECTO FUE DESARROLLADO POR MATIAS LEIVA, NICOLAS BARRERA Y KEYLA GRANDEZ========-->
+</head>
+
+<body>
+
+    <!-- Skip link para accesibilidad por teclado -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- BARRA SUPERIOR-->
+    <div class="top-bar" role="complementary" aria-label="Links institucionales">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-1">
+                <span><i class="bi bi-clock me-1"></i>Horario: Lun–Vie 08:30–14:00 hrs</span>
+                <div>
+                    <a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045"
+                        target="_blank" rel="noopener" aria-label="Transparencia activa (abre en nueva pestaña)">
+                        <i class="bi bi-eye me-1"></i>Transparencia
+                    </a>
+                    <a href="https://www.portaltransparencia.cl/PortalPdT/ingreso-sai-v2?idOrg=498" target="_blank"
+                        rel="noopener" aria-label="Solicitar información (abre en nueva pestaña)">
+                        <i class="bi bi-file-earmark-text me-1"></i>Solicitar Info
+                    </a>
+                    <a href="https://www.leylobby.gob.cl/instituciones/MU045" target="_blank" rel="noopener">
+                        <i class="bi bi-building me-1"></i>Ley Lobby
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--NAVBAR -->
+    <nav class="navbar navbar-main navbar-expand-lg" id="mainNavbar" role="navigation"
+        aria-label="Navegación principal">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-text" href="#" aria-label="Municipalidad de Cholchol - Inicio">
+                Municipalidad de Cholchol
+
+
+                <span>CholChol Avanza</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto gap-1" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a class="nav-link nav-link-main active" href="#" role="menuitem" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link nav-link-main" href="#noticias" role="menuitem">Noticias</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link nav-link-main" href="#servicios" role="menuitem">Servicios</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a class="nav-link nav-link-main" href="#contacto" role="menuitem">Contacto</a>
+                    </li>
+                </ul>
+                <a href="#contacto" class="btn btn-gold ms-3 ms-lg-4 btn-sm">
+                    <i class="bi bi-chat-dots me-1"></i>Contactanos
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--CONTENIDO PRINCIPAL-->
+    <main id="main-content">
+
+        <!-- HERO -->
+        <section class="hero" aria-label="Sección principal de bienvenida" role="banner">
+            <div class="container position-relative z-1">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="hero-badge">
+                            <i class="bi bi-geo-alt-fill me-1"></i>Region de La Araucania
+                        </div>
+                        <h1 class="hero-title">
+                            Cholchol,<br><em>tierra que avanza.</em>
+                        </h1>
+
+                        <div class="logo-hero">
+                            <img
+                                src="https://www.municholchol.cl/images/418/16998895/LogoAzul-urX0RV9QBy_AQmjBcRbKkA.png">
+                        </div>
+
+                        <p class="hero-desc">
+                            Trabajamos cada día por el bienestar de nuestra comunidad,
+                            preservando nuestra identidad mapuche y construyendo juntos
+                            un futuro de progreso e inclusión.
+                        </p>
+                        <div class="hero-actions d-flex flex-wrap gap-3">
+                            <a href="#servicios" class="btn btn-gold">
+                                <i class="bi bi-grid me-2"></i>Ver servicios
+                            </a>
+                            <a href="#contacto" class="btn btn-outline-light-main">
+                                <i class="bi bi-envelope me-2"></i>Contáctanos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#servicios-rapidos" class="hero-scroll" aria-label="Desplazarse hacia abajo">
+                <i class="bi bi-chevron-double-down"></i>
+            </a>
+        </section>
+
+        <!-- SERVICIOS RÁPIDOS -->
+        <div class="quick-services" id="servicios-rapidos" role="region" aria-label="Accesos rápidos a servicios">
+            <div class="container">
+                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                    <a href="https://cholcholpagos.insico.cl/PermisoCirculacion" target="_blank" rel="noopener"
+                        class="service-chip" aria-label="Permiso de circulación (abre en nueva pestaña)">
+                        <i class="bi bi-car-front"></i> Permiso de Circulación
+                    </a>
+                    <a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045"
+                        target="_blank" rel="noopener" class="service-chip">
+                        <i class="bi bi-eye"></i> Transparencia
+                    </a>
+                    <a href="#contacto" class="service-chip">
+                        <i class="bi bi-envelope"></i> Oficina de Partes
+                    </a>
+                    <a href="https://www.youtube.com/@MunicipalidaddeCholcholOficial/streams" target="_blank"
+                        rel="noopener" class="service-chip">
+                        <i class="bi bi-broadcast"></i> Sesiones en Vivo
+                    </a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScBBsnUVPRz9K-SMc7p-sMfZ_s3tTOPvUYjnOr_viCpk6u3TQ/viewform"
+                        target="_blank" rel="noopener" class="service-chip">
+                        <i class="bi bi-clipboard-check"></i> Encuesta Ciudadana
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- NOTICIAS -->
+        <section id="noticias" aria-label="Noticias y anuncios municipales">
+            <div class="container">
+                <div class="row align-items-end mb-4">
+                    <div class="col-md-7 animate-in">
+                        <p class="section-label">Actualidad</p>
+                        <h2 class="section-title">Noticias y<br>Anuncios</h2>
+                        <p class="section-desc">Mantente informado sobre las ultimas iniciativas y gestiones de tu
+                            municipio.</p>
+                    </div>
+                    <div class="col-md-5 text-md-end mt-3 mt-md-0 animate-in">
+                        <div class="d-flex gap-2 flex-wrap justify-content-md-end" role="group"
+                            aria-label="Filtros de noticias">
+                            <button class="filter-btn active" data-filter="all" aria-pressed="true">Todas</button>
+                            <button class="filter-btn" data-filter="educacion" aria-pressed="false">Educación</button>
+                            <button class="filter-btn" data-filter="comunidad" aria-pressed="false">Comunidad</button>
+                            <button class="filter-btn" data-filter="tramites" aria-pressed="false">Trámites</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4" id="newsGrid">
+
+                    <!-- Noticia 1 -->
+                    <div class="col-md-6 col-lg-4 news-item animate-in" data-category="educacion">
+                        <article class="news-card" aria-label="Noticia: Becas Municipales 2025">
+                            <img src="https://holaaraucania.cl/wp-content/uploads/2025/05/IMG_0957-scaled-1.jpeg"
+                                alt="Estudiantes de Cholchol beneficiados con becas municipales 2025"
+                                class="news-card-img" loading="lazy">
+                            <div class="news-card-body">
+                                <p class="news-tag"><i class="bi bi-mortarboard-fill me-1"></i>Educación</p>
+                                <h3 class="news-card-title">100 jóvenes de Cholchol son beneficiados con becas para sus
+                                    estudios superiores</h3>
+                                <p class="news-card-text">El Municipio de Cholchol, a través de su Programa de Becas
+                                    Municipales, beneficio este año 2025 a 100 estudiantes de educación superior.</p>
+                                <div class="news-card-footer">
+                                    <span><i class="bi bi-calendar3 me-1"></i>Enero 2025</span>
+                                    <a href="https://alertanoticiastemuco.cl/2025/05/28/becas-municipales-cholchol-jovenes-beneficiados/"
+                                        class="btn-leer" aria-label="Leer más sobre las becas municipales">
+                                        Leer más <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Noticia 2 -->
+                    <div class="col-md-6 col-lg-4 news-item animate-in" data-category="comunidad">
+                        <article class="news-card" aria-label="Noticia: Reconocimiento dirigentes sociales">
+                            <img src="https://municholchol.cl/images/1200/16228775/proco-4-ilDvDZpenV1zwNgcRKt1WA.jpeg"
+                                alt="Plaza y frontis de la Municipalidad de Cholchol" class="news-card-img"
+                                loading="lazy">
+                            <div class="news-card-body">
+                                <p class="news-tag"><i class="bi bi-people-fill me-1"></i>Comunidad</p>
+                                <h3 class="news-card-title">Municipio reconoce a dirigentes sociales que lucharon para
+                                    que Cholchol sea comuna</h3>
+                                <p class="news-card-text">Por primera vez en la historia, el municipio rindió homenaje a
+                                    vecinos que trabajaron durante años para lograr la autonomía comunal en 2004.</p>
+                                <div class="news-card-footer">
+                                    <span><i class="bi bi-calendar3 me-1"></i>Febrero 2025</span>
+                                    <a href="https://araucanianoticias.cl/2025/municipio-reconoce-a-dirigentes-sociales-que-lucharon-para-que-cholchol-sea-comuna/0428279085"
+                                        class="btn-leer" aria-label="Leer más sobre el reconocimiento a dirigentes">
+                                        Leer más <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Noticia 3 -->
+                    <div class="col-md-6 col-lg-4 news-item animate-in" data-category="tramites">
+                        <article class="news-card" aria-label="Noticia: Renovación de patentes de alcoholes">
+                            <img src="https://www.diarioconstitucional.cl/wp-content/uploads/2022/03/248520ec-aton_532149-scaled-1.jpg"
+                                alt="Puente de Cholchol, imagen representativa de la comuna" class="news-card-img"
+                                loading="lazy">
+                            <div class="news-card-body">
+                                <p class="news-tag"><i class="bi bi-file-earmark-check-fill me-1"></i>Trámites</p>
+                                <h3 class="news-card-title">Renovación de Patentes de Alcoholes — Periodo Enero a Junio
+                                    2026</h3>
+                                <p class="news-card-text">Se informa a la ciudadanía que se encuentra abierto el período
+                                    de renovación de patentes de alcoholes. Descarga las bases aquí.</p>
+                                <div class="news-card-footer">
+                                    <span><i class="bi bi-calendar3 me-1"></i>Enero 2026</span>
+                                    <a href="https://www.chileatiende.gob.cl/fichas/349-informe-para-renovacion-de-patente-de-alcoholes"
+                                        class="btn-leer" aria-label="Leer más sobre patentes de alcoholes">
+                                        Leer más <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+                <!-- Mensaje sin resultados -->
+                <div id="noResults" class="text-center py-5" style="display:none;" role="alert" aria-live="polite">
+                    <i class="bi bi-search" style="font-size:2rem; color:var(--color-muted)"></i>
+                    <p class="mt-3 text-muted">No hay noticias en esta categoría por ahora.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ESTADÍSTICAS -->
+        <div class="stats-section" role="region" aria-label="Estadísticas de la comuna">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-6 col-md-3 stat-item animate-in">
+                        <div class="stat-number" aria-label="más de 21 mil habitantes">21.000+</div>
+                        <div class="stat-label">Habitantes</div>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item animate-in">
+                        <div class="stat-number" aria-label="fundada en el año 2004">2004</div>
+                        <div class="stat-label">Año de fundación</div>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item animate-in">
+                        <div class="stat-number" aria-label="cien becas en 2025">100</div>
+                        <div class="stat-label">Becas 2025</div>
+                    </div>
+                    <div class="col-6 col-md-3 stat-item animate-in">
+                        <div class="stat-number" aria-label="más de 15 servicios municipales">15+</div>
+                        <div class="stat-label">Servicios municipales</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICIOS MUNICIPALES -->
+        <section id="servicios" aria-label="Servicios municipales disponibles">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-6 text-center animate-in">
+
+                        <h2 class="section-title">Servicios<br>Municipales</h2>
+                        <p class="section-desc mx-auto">Accede de manera rápida a los servicios más importantes para los
+                            vecinos de Cholchol.</p>
+                    </div>
+                </div>
+
+                <div class="row g-4" id="servicesGrid"></div>
+            </div>
+        </section>
+
+
+
+        <!-- FORMULARIO -->
+        <section id="contacto" aria-label="Formulario de contacto y ubicación">
+            <div class="container">
+                <div class="row align-items-start g-5">
+
+                    <!-- Información de contacto -->
+                    <div class="col-lg-5 animate-in">
+                        <p class="section-label">Estamos aquí para ayudarles</p>
+                        <h2 class="section-title">Contáctanos</h2>
+                        <p class="section-desc mb-4">Puedes comunicarte con nosotros de manera presencial o a través de
+                            los siguientes medios.</p>
+
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" aria-hidden="true"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div class="contact-info-text">
+                                <strong>Dirección</strong>
+                                <span>José Joaquín Pérez 449, Cholchol, La Araucanía</span>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" aria-hidden="true"><i class="bi bi-telephone-fill"></i></div>
+                            <div class="contact-info-text">
+                                <strong>Teléfono</strong>
+                                <span><a href="tel:+56452734200" style="color:inherit">+56 45 273 4200</a></span>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" aria-hidden="true"><i class="bi bi-envelope-fill"></i></div>
+                            <div class="contact-info-text">
+                                <strong>Correo Electrónico</strong>
+                                <span><a href="mailto:oficinaddepartes@municholchol.cl"
+                                        style="color:inherit">oficinaddepartes@municholchol.cl</a></span>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" aria-hidden="true"><i class="bi bi-clock-fill"></i></div>
+                            <div class="contact-info-text">
+                                <strong>Horario de Atención</strong>
+                                <span>Lunes a Viernes: 08:30 – 14:00 hrs</span>
+                            </div>
+                        </div>
+
+
+                        <!-- logo municipalidad-->
+                        <div class="mapa mt-3" role="region"
+                            aria-label="Mapa de ubicación de la Municipalidad de Cholchol">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.5!2d-72.8473708!3d-38.6000101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDM2JzAwLjAiUyA3MsKwNTAnNTAuNSJX!5e0!3m2!1ses!2scl!4v1700000000000!5m2!1ses!2scl"
+                                title="Municipalidad de Cholchol">
+
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Formulario -->
+                    <div class="col-lg-7 animate-in">
+                        <div class="contact-card">
+                            <h3 class="mb-1" style="font-family:var(--font-display); color:var(--color-primary)">
+                                Envíanos un mensaje
+                            </h3>
+                            <p class="text-muted mb-4" style="font-size:0.88rem">
+                                Responderemos en un plazo máximo de 2 días hábiles.
+                            </p>
+
+                            <form id="contactForm" novalidate aria-label="Formulario de contacto">
+                                <div class="row g-3">
+
+                                    <!-- Campo: Nombre -->
+                                    <div class="col-sm-6">
+                                        <label for="nombre" class="form-label-main">
+                                            Nombre completo
+                                            <span aria-hidden="true" style="color:#dc3545">*</span>
+                                        </label>
+                                        <input type="text" id="nombre" name="nombre" class="form-control-main"
+                                            placeholder="Ej: Ana González" required aria-required="true"
+                                            aria-describedby="nombreError nombreOk" autocomplete="name">
+                                        <span id="nombreError" class="error-msg" role="alert">
+                                            <i class="bi bi-exclamation-circle me-1"></i>Por favor ingresa tu
+                                            nombre.
+                                        </span>
+                                        <span id="nombreOk" class="success-msg" role="status">
+                                            <i class="bi bi-check-circle me-1"></i>¡Nombre válido!
+                                        </span>
+                                    </div>
+
+                                    <!-- Campo: Correo -->
+                                    <div class="col-sm-6">
+                                        <label for="correo" class="form-label-main">
+                                            Correo electrónico
+                                            <span aria-hidden="true" style="color:#dc3545">*</span>
+                                        </label>
+                                        <input type="email" id="correo" name="correo" class="form-control-main"
+                                            placeholder="correo@ejemplo.com" required aria-required="true"
+                                            aria-describedby="correoError correoOk" autocomplete="email">
+                                        <span id="correoError" class="error-msg" role="alert">
+                                            <i class="bi bi-exclamation-circle me-1"></i>Ingresa un correo
+                                            electrónico válido.
+                                        </span>
+                                        <span id="correoOk" class="success-msg" role="status">
+                                            <i class="bi bi-check-circle me-1"></i>¡Correo válido!
+                                        </span>
+                                    </div>
+
+                                    <!-- Campo: Teléfono -->
+                                    <div class="col-sm-6">
+                                        <label for="telefono" class="form-label-main">Teléfono (opcional)</label>
+                                        <input type="tel" id="telefono" name="telefono" class="form-control-main"
+                                            placeholder="+56 9 1234 5678" aria-describedby="telefonoError"
+                                            autocomplete="tel">
+                                        <span id="telefonoError" class="error-msg" role="alert">
+                                            <i class="bi bi-exclamation-circle me-1"></i>Formato inválido. Ej:
+                                            +56912345678
+                                        </span>
+                                    </div>
+
+                                    <!-- Campo: Asunto -->
+                                    <div class="col-sm-6">
+                                        <label for="asunto" class="form-label-main">
+                                            Asunto
+                                            <span aria-hidden="true" style="color:#dc3545">*</span>
+                                        </label>
+                                        <select id="asunto" name="asunto" class="form-control-main" required
+                                            aria-required="true" aria-describedby="asuntoError">
+                                            <option value="">Selecciona una opción</option>
+                                            <option value="info">Solicitud de información</option>
+                                            <option value="tramite">Trámite municipal</option>
+                                            <option value="reclamo">Reclamo o sugerencia</option>
+                                            <option value="emergencia">Emergencia comunitaria</option>
+                                            <option value="otro">Otro</option>
+                                        </select>
+                                        <span id="asuntoError" class="error-msg" role="alert">
+                                            <i class="bi bi-exclamation-circle me-1"></i>Selecciona un asunto.
+                                        </span>
+                                    </div>
+
+                                    <!-- Campo: Mensaje -->
+                                    <div class="col-12">
+                                        <label for="mensaje" class="form-label-main">
+                                            Mensaje
+                                            <span aria-hidden="true" style="color:#dc3545">*</span>
+                                        </label>
+                                        <textarea id="mensaje" name="mensaje" class="form-control-main" rows="5"
+                                            placeholder="Escribe tu consulta o solicitud aquí..." required
+                                            aria-required="true" maxlength="500"
+                                            aria-describedby="mensajeError mensajeOk charCount"
+                                            style="resize:vertical"></textarea>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <span id="mensajeError" class="error-msg" role="alert">
+                                                    <i class="bi bi-exclamation-circle me-1"></i>El mensaje debe
+                                                    tener al menos 20 caracteres.
+                                                </span>
+                                                <span id="mensajeOk" class="success-msg" role="status">
+                                                    <i class="bi bi-check-circle me-1"></i>¡Mensaje válido!
+                                                </span>
+                                            </div>
+                                            <span id="charCount" class="char-counter" aria-live="polite">0 /
+                                                500</span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Checkbox: Privacidad -->
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start gap-2">
+                                            <input type="checkbox" id="privacidad" name="privacidad" required
+                                                aria-required="true" aria-describedby="privacidadError" style="margin-top:3px; width:16px; height:16px;
+                                    accent-color:var(--color-secondary); flex-shrink:0;">
+                                            <label for="privacidad"
+                                                style="font-size:0.82rem; color:var(--color-muted); cursor:pointer">
+                                                Acepto la política de privacidad y que mis datos sean tratados
+                                                exclusivamente para fines municipales.
+                                                <span aria-hidden="true" style="color:#dc3545">*</span>
+                                            </label>
+                                        </div>
+                                        <span id="privacidadError" class="error-msg" role="alert">
+                                            <i class="bi bi-exclamation-circle me-1"></i>Debes aceptar la política
+                                            de privacidad.
+                                        </span>
+                                    </div>
+
+                                    <!-- Botón enviar -->
+                                    <div class="col-12">
+                                        <button type="submit" id="submitBtn" class="btn btn-gold w-100 py-3"
+                                            aria-label="Enviar formulario de contacto">
+                                            <i class="bi bi-send-fill me-2"></i>Enviar Mensaje
+                                        </button>
+                                    </div>
+
+                                    <!-- Alertas de resultado -->
+                                    <div class="col-12">
+                                        <div id="formSuccess" class="form-alert alert-success-main" role="alert"
+                                            aria-live="polite">
+                                            <i class="bi bi-check-circle-fill" style="font-size:1.3rem"></i>
+                                            <div>
+                                                <strong>¡Mensaje enviado!</strong><br>
+                                                <span style="font-size:0.85rem">Nos contactaremos contigo en un
+                                                    plazo de 2 días hábiles.</span>
+                                            </div>
+                                        </div>
+                                        <div id="formError" class="form-alert alert-error-main" role="alert"
+                                            aria-live="polite">
+                                            <i class="bi bi-exclamation-triangle-fill" style="font-size:1.3rem"></i>
+                                            <div>
+                                                <strong>Hay errores en el formulario.</strong><br>
+                                                <span style="font-size:0.85rem">Por favor revisa los campos marcados
+                                                    en rojo.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- BARRA DE ACCESIBILIDAD-->
+    <div class="accessibility-bar" role="complementary" aria-label="Opciones de accesibilidad">
+        <div class="container">
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+                <span style="color:rgba(255,255,255,0.5); font-size:0.75rem; margin-right:0.5rem;">
+                    <i class="bi bi-universal-access me-1"></i>Accesibilidad:
+                </span>
+                <button class="acc-btn" id="btnContraste" aria-pressed="false" aria-label="Activar alto contraste">
+                    <i class="bi bi-circle-half me-1"></i>Alto contraste
+                </button>
+                <button class="acc-btn" id="btnFuente" aria-pressed="false" aria-label="Aumentar tamaño de texto">
+                    <i class="bi bi-fonts me-1"></i>Texto grande
+                </button>
+                <button class="acc-btn" id="btnReset" aria-label="Restablecer opciones de accesibilidad">
+                    <i class="bi bi-arrow-counterclockwise me-1"></i>Restablecer
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-4">
+                    <div class="footer-brand">Municipalidad<br>de Cholchol</div>
+                    <div class="footer-tagline">CholChol Avanza!</div>
+                    <p class="footer-desc">
+                        Comprometidos con el desarrollo sostenible de nuestra comunidad,
+                        respetando nuestra identidad cultural mapuche y trabajando por
+                        un Cholchol más justo e inclusivo.
+                    </p>
+                    <div class="mt-3">
+                        <a href="https://www.facebook.com/profile.php?id=100065025870874" target="_blank" rel="noopener"
+                            class="social-btn" aria-label="Facebook de la Municipalidad">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@MunicipalidaddeCholcholOficial" target="_blank" rel="noopener"
+                            class="social-btn" aria-label="YouTube de la Municipalidad">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/municholchol_oficial/" target="_blank" rel="noopener"
+                            class="social-btn" aria-label="Instagram de la Municipalidad">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <div class="footer-title">Municipio</div>
+                    <a href="https://municholchol.cl/municipio/" class="footer-link">Alcalde</a>
+                    <a href="https://municholchol.cl/municipio/" class="footer-link">Concejo Municipal</a>
+                    <a href="https://municholchol.cl/municipio/" class="footer-link">Organigrama</a>
+                    <a href="https://municholchol.cl/patrimonio/" class="footer-link">Patrimonio</a>
+                    <a href="https://municholchol.cl/municipio/" class="footer-link">Historia de Cholchol</a>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <div class="footer-title">Servicios</div>
+                    <a href="https://cholcholpagos.insico.cl/PermisoCirculacion" target="_blank" rel="noopener"
+                        class="footer-link">Permiso de Circulación</a>
+                    <a href="https://www.registrodeempresasysociedades.cl/" class="footer-link">Patentes Comerciales</a>
+                    <a href="https://www.chileatiende.gob.cl/fichas/20592-licencias-de-conducir"
+                        class="footer-link">Licencias de Conducir</a>
+                    <a href="https://www.registrocivil.cl/" class="footer-link">Registro Civil</a>
+                    <a href="#" class="footer-link">DIDECO</a>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="footer-title">Institucional</div>
+                    <a href="https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045"
+                        target="_blank" rel="noopener" class="footer-link">
+                        <i class="bi bi-eye me-1"></i>Transparencia Activa
+                    </a>
+                    <a href="https://www.portaltransparencia.cl/PortalPdT/ingreso-sai-v2?idOrg=498" target="_blank"
+                        rel="noopener" class="footer-link">
+                        <i class="bi bi-file-earmark-text me-1"></i>Solicitud de Información
+                    </a>
+                    <a href="https://www.leylobby.gob.cl/instituciones/MU045" target="_blank" rel="noopener"
+                        class="footer-link">
+                        <i class="bi bi-building me-1"></i>Ley Lobby
+                    </a>
+                    <div class="mt-3 p-3"
+                        style="background:rgba(255,255,255,0.05); border-radius:8px; border:1px solid rgba(255,255,255,0.1)">
+                        <div style="font-size:0.8rem; color:rgba(255,255,255,0.5); margin-bottom:0.25rem">
+                            <i class="bi bi-geo-alt me-1"></i>Dirección
+                        </div>
+                        <div style="font-size:0.85rem; color:rgba(255,255,255,0.8)">
+                            José Joaquín Pérez 449, Cholchol<br>
+                            <a href="tel:+56452734200" style="color:var(--color-accent)">+56 45 273 4200</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <span>© 2026 Municipalidad de Cholchol. Todos los derechos reservados.</span>
+                <span>
+                    Diseño responsivo · Accesible ·
+                    <a href="#" style="color:var(--color-accent)">Política de Privacidad</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón volver arriba -->
+    <button id="backToTop" aria-label="Volver al inicio de la página" title="Volver arriba">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <!-- Modal de detalle de servicio -->
+    <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-modal="true"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModalLabel">Servicio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body" id="serviceModalBody">
+                    <p>Cargando información...</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" id="serviceModalLink" class="btn btn-gold" target="_blank" rel="noopener">
+                        Ir al servicio <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript propio -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
